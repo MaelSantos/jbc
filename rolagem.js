@@ -3,6 +3,10 @@ $(document).ready(function () {
         posicao = $("#inicio").offset().top
         $("html").animate({ scrollTop: posicao });
     });
+    $(".perfil_menu").click(function () {
+        posicao = $("#perfil").offset().top
+        $("html").animate({ scrollTop: posicao });
+    });
     $(".biografia_menu").click(function () {
         posicao = $("#biografia").offset().top
         $("html").animate({ scrollTop: posicao });
