@@ -12,21 +12,22 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/jbc.css">
     <title>Jaelson Castro</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid justify-content-end">
+        <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Jaelson Castro</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link inicio_menu" href="#" data-target="#inicio">Inicio</a>
                     </li>
@@ -47,12 +48,13 @@
         </div>
     </nav>
 
-    <section id="inicio" class="min-vw-100 min-vh-100 d-flex">
+    <section id="inicio" class="min-vw-100 min-vh-100">
         <div class="container">
             <div class="row py-lg-5 d-flex justify-content-between align-items-right p-2 mt-5 mx-auto">
 
-                <div class="col col-md-2">
-                    <img src="assets/jbc_foto.jpg" class="rounded-circle" alt="Imagem 3x4 de Jaelson Castro">
+                <div class="col col-md-3">
+                    <img src="assets/img/jbc_foto3.jpg" class="img-fluid rounded-circle"
+                        alt="Imagem 3x4 de Jaelson Castro">
                 </div>
 
                 <div class="col col-md-5">
@@ -99,8 +101,8 @@
                     <h5 class="mt-3">Associações</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
-                            <img src="assets/logo_cin.gif" alt="imagem CIN">
-                            <img src="assets/logo_ler.gif" alt="imagem LER">
+                            <img src="assets/img/logo_cin.gif" alt="imagem CIN">
+                            <img src="assets/img/logo_ler.gif" alt="imagem LER">
                         </li>
                     </ul>
                 </div>
@@ -112,15 +114,15 @@
 
     <hr>
 
-    <section id="perfil" class="min-vw-100 min-vh-100 d-flex">
+    <section id="perfil" class="min-vw-100 min-vh-100">
         <div class="container">
-            <div class="d-flex justify-content-between p-2">
-                <div class="row py-lg-5 mx-auto">
-                    <div class="col col-md-3">
+            <div class="d-flex justify-content-center">
+                <div class="row">
+                    <div class="col col-md-3 py-lg-5 mx-auto">
                         <h1>Perfil</h1>
                     </div>
 
-                    <div class="col col-md-8">
+                    <div class="col col-md-10 mx-auto">
                         <p>
                         <ul class="nav flex-column">
                             <strong>Name:</strong>
@@ -175,16 +177,17 @@
 
     <hr>
 
-    <section id="biografia" class="min-vw-100 min-vh-100 d-flex">
+    <section id="biografia" class="min-vw-100 min-vh-100">
         <div class="container">
-            <div class="d-flex justify-content-between p-2">
-                <div class="row py-lg-5 mx-auto">
-                    <div class="col col-md-3">
+            <div class="d-flex justify-content-center ">
+                <div class="row">
+
+                    <div class="col col-md-3 py-lg-5 mx-auto">
                         <h1>Biografia</h1>
                     </div>
 
-                    <div class="col col-md-8">
-                        <p style="text-align: justify">Possui graduação em Engenharia Elétrica pela Universidade Federal
+                    <div class="col col-md-10 mx-auto">
+                        <p>Possui graduação em Engenharia Elétrica pela Universidade Federal
                             de
                             Pernambuco (1982), mestrado em
                             Informática pela Universidade Federal de Pernambuco (1986) e doutorado em Computing -
@@ -277,9 +280,9 @@
 
     <hr>
 
-    <section id="producoes" class="min-vw-100 min-vh-100 d-flex">
+    <section id="producoes" class="min-vw-100 min-vh-100">
         <div class="container">
-            <div class="d-flex justify-content-center p-2 mt-4">
+            <div class="d-flex justify-content-center">
                 <div class="row py-lg-5 mx-auto">
                     <h1>Produções</h1>
                 </div>
@@ -844,14 +847,16 @@
 
     <hr>
 
-    <section id="contato" class="min-vw-100 min-vh-100 d-flex">
+    <section id="contato" class="min-vw-100 min-vh-100">
         <div class="container">
-            <div class="d-flex justify-content-center align-items-center p-2 mt-4">
-                <div class="row py-lg-5 mx-auto">
+            <div class="d-flex justify-content-center">
+                <div class="row">
 
-                    <h1>Contatos</h1>
+                    <div class="col col-md-3 py-lg-5 mx-auto">
+                        <h1>Contatos</h1>
+                    </div>
 
-                    <div class="col">
+                    <div class="col col-md-10 mx-auto">
                         <p>Universidade Federal de Pernambuco <br>
                             Centro de Informática (CIn) da UFPE<br>
                             Av. Jornalista Anibal Fernandes, s/n - Cidade Universitária (Campus Recife)<br>
@@ -874,7 +879,7 @@
 
             <div class="d-flex justify-content-between py-2 my-4">
 
-                <p>© 2022 Jaelson Castro.</p>
+                <p>© 2023 Jaelson Castro.</p>
 
                 <ul class="nav col-md-4 justify-content-end">
                     <li class="nav-item">
@@ -899,6 +904,6 @@
 
 </body>
 
-<script src="rolagem.js"></script>
+<script src="assets/js/rolagem.js"></script>
 
 </html>

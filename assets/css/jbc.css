@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'WorkSans-Light';
+    src: url(../font/static/WorkSans-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url(../font/static/WorkSans-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'WorkSans-Bold', sans-serif;
+}
+
+p, li, a {
+    font-family: 'WorkSans-Light', sans-serif;
+}
+
+p {
+    text-align: justify
+}
+
+h1 {
+    text-align: center
+}
